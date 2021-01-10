@@ -1,0 +1,150 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(199, 219, 110,.4);
+}
+.logo{
+    width: 60px;
+    height: auto;
+    margin-left: 50px;
+}
+header{
+    background-image: url(images/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+}
+.nav-link{
+    font-size: 20px;
+    color: white !important;
+    font-family: 'Imbue', serif;
+}
+.nav-link:hover{
+    background-color: rgba(36, 64, 145, .9);
+    color: white;
+    border-radius: 7px;
+
+}
+.banner-area{
+    text-align: center;
+    margin: 40px 4px;
+    font-family: 'Potta One', cursive;
+}
+.banner-area h2{
+    background-color: rgba(71, 204, 41, .6);
+    border-radius: 60% 0 0 0 ;
+    padding: 15px;
+}
+.banner-area p{
+    background-color: rgba(71, 204, 41, .6);
+    border-radius:0 0 60% 0 ;
+    padding: 25px;
+    font-size: 12px;
+}
+nav{
+    background-color: rgba(0, 0, 0, .6);
+}
+.btn{
+    color: white;
+    border: 2px solid black;
+}
+
+/* header finish here */
+/* header finish here */
+/* header finish here */
+
+/* service here */
+.title{
+    margin: -30px 0 0 0 ;
+    width: 100%;
+}
+.col-style{
+    background-color: rgba(205, 227, 82,.5);
+    padding: 10px;
+    border: 2px solid rgb(10, 194, 13);
+    transition: .4s;
+}
+.col-style:hover{
+    transform: scale(1.1);
+}
+.row{
+    justify-content: space-around;
+}
+/* service ends */
+
+/* admin */
+.poc{
+    width: 360px;
+    height: auto;
+}
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center !important; 
+}
+/* admin finished */
+
+/* plan program start*/
+.title-plan{
+    background-color: chartreuse;
+    border: 4px solid chartreuse;
+    border-radius: 0 100% 0 100%;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+
+.hr-style{
+    width: 100px;
+    color: black;
+    border-bottom:none ;
+    border: black double 2px;
+}
+
+/* plan program end */
+
+/* form and random some */
+.form{
+    background-image: url(images/form.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    height:70 vh;
+}
+.babu{
+    background-image: url(images/bas.jfif);
+    background-size: 96% 98%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-light{
+    background-color: rgba(0, 0, 0, .5);
+    font-family: imbue;
+}
+
+.leb{
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 2x;
+    border-radius: 20%;
+}
+.nis-log{
+    width: 240px;
+    height: auto;
+}
+.ah-log{
+    width: 190px;
+    height: auto;
+}
+/* form and random some ends here */
+
+/* footer */
+.copyr8{
+    font-size: 14px;
+}
+.fab:hover{
+transform: scale(1.1);
+color: black;
+}
